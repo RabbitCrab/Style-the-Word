@@ -120,6 +120,7 @@ Randomly split output images from step 2 for train and validation.
 * Modify `line 5` and `line 6` to the input source directory and output destination directory.
 * Modify `line 27` and `line 34` if needed.
 
+* Run
 ```
 cd ./CG_Project/
 python randomly_split.py
@@ -130,7 +131,7 @@ Neural style transfer.
 * Modify `line 52` and `line 53` for original and style images.
 * Modify `line 104` for output images.
 
-Run
+* Run
 ```
 cd ./CG_Project/gan_style/
 python neural_style.py
@@ -146,7 +147,7 @@ CycleGAN.
 * Modify `line 484` and `line 485` for model path.
 * Modify `line 488` and `line 490` for test subdirectory.
 
-Run
+* Run
 ```
 python cyclegan.py --mode 0
 ```
@@ -158,7 +159,7 @@ python cyclegan.py --mode 0
 * Modify `line 325` and `line 326` for different output image.
 * modify `line 471 to line 477` for model name.
 
-Run
+* Run
 ```
 python cyclegan.py --mode 1
 ```
