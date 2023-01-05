@@ -145,6 +145,7 @@ CycleGAN.
 * Modify `line 60` for output images.
 * Modify `line 484` and `line 485` for model path.
 * Modify `line 488` and `line 490` for test subdirectory.
+
 Run
 ```
 python cyclegan.py --mode 0
@@ -156,6 +157,7 @@ python cyclegan.py --mode 0
 * Modify `line 310`, `line 313`, `line 317` and `line 319` for train and validation subdirectory.
 * Modify `line 325` and `line 326` for different output image.
 * modify `line 471 to line 477` for model name.
+
 Run
 ```
 python cyclegan.py --mode 1
